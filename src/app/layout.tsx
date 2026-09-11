@@ -23,12 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      {/* suppressHydrationWarning: browser extensions (e.g. ClickUp) inject
-          classes into <body> before React hydrates; this only ignores that
-          specific mismatch, not real hydration errors. */}
-      <body className="min-h-full flex flex-col" suppressHydrationWarning>
-        {children}
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
