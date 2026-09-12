@@ -13,4 +13,4 @@ This repo isn't meant to be run standalone — see the [`pinch`](https://github.
 
 ## Status
 
-Phase 1 scaffold: the homepage fetches the backend's `GET /api/hello` (server-side, over the Docker network) and renders it, proving the stack is wired end-to-end. No real UI, auth, or API design yet — that's Phase 2. See `ALIGNMENT.md` in the meta-repo for the full plan.
+Phase 1 scaffold: the homepage fetches the backend's `GET /api/hello` (server-side, over the Docker network) and renders it, proving the stack is wired end-to-end. No real UI, auth, or API design yet — that's Phase 2. See `../ai_artifacts/ALIGNMENT.md` in the meta-repo for the full plan.
